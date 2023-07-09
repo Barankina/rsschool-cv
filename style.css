@@ -1,1 +1,116 @@
-feat: add style.css file
+<style>
+  
+  div {
+    display: block;
+  }
+  
+
+  .nav {
+    background-color: #808799;
+    
+  }
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    
+  }
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: black;
+  }
+  
+  .column {
+    width: 30%;
+    background: #bdc8e3;
+    padding: 0 50px 0 70px;
+  }
+  
+  .column_main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #a8bef0;
+    padding: 0 50px;
+  }
+  
+  .figure--left-side {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: min-content;
+    background-color: #343945;
+  }
+  figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+ }
+  .main{
+    display: flex;
+  }
+html {
+  scroll-behavior: smooth; 
+}
+  section {
+    display: block;
+  }
+  .column_main .section-title {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+body{
+  font-family: 'Noto Serif', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    background-color: #808799;
+    color:#000000
+}
+.footer-title {
+    justify-self: center;
+    
+}
+.footer-year {
+    justify-self: center;
+    
+}
+.footer-rs {
+    justify-self: center;
+    
+}
+.center {
+    text-align: center;
+}
+.main-title {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 1000;
+    }
+.profil {
+    margin: 120px 0px 40px 0px;
+}
+</style>
