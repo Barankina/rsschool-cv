@@ -1,1 +1,70 @@
-feat: add style.css file
+<style>
+  
+  div {
+    display: block;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+
+  
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+  }
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: black;
+  }
+  
+  .column {
+    width: 40%;
+    background: white;
+  }
+  
+  .column_main {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+  
+  .figure--left-side {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: min-content;
+    background-color: #343945;
+  }
+  figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+ }
+  .main{
+    display: flex;
+  }
+html {
+  scroll-behavior: smooth; 
+}
+  section {
+    display: block;
+  }
+body{
+  font-family: 'Noto Serif', serif;
+}
+</style>
